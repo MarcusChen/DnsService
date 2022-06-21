@@ -26,6 +26,9 @@ dependencies {
 	implementation("io.micrometer:micrometer-registry-prometheus")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+	testImplementation("org.springframework:spring-test:5.3.20")
 }
 
 tasks.withType<KotlinCompile> {

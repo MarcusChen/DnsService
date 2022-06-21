@@ -25,4 +25,10 @@ curl --location --request POST 'http://localhost:8000' \
 
 ```
 
+## Metrics
+
+Count info can be access at this endpoint: http://localhost:8000/actuator/prometheus
+
+search for "message_received_total", "processing_success_total", and "processing_failure_total"
+
 
